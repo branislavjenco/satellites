@@ -1,6 +1,6 @@
 PV251 Project - Branislav Jenčo - 397519
 
-URL: http://www.fi.muni.cz/~x397519/PV251/
+URL: http://www.branislavjenco.com/satellites
 
 The visualization uses D3.js to parse a csv table and show charts, and Three.js for the 3D view.
 
@@ -18,4 +18,4 @@ The source csv table can be found in this folder. There is much more information
 	- by clicking on an orbit, to show all the information about the corresponding satellite, because of time constraints I could not make this in time (raycasting a particular orbit is implemented)
 
 Known bugs
-	- the legend can interect with the pie chart slightly on certain resolutions
+	- the legend can overlap with the pie chart slightly on certain resolutions
