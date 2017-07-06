@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8>
+    <title>Orbits PV251</title>
+    <style>
+      body { margin: 0; }
+      canvas { width: 100%; height: 100% }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <canvas id="gradient"></canvas>
+    <canvas id="scene"></canvas>
+    <div class="splash">
+      <h1>Earth Satellites Sample Visualization</h1>
+      <p>This visualization shows the orbits of 455 satellites currently orbiting Earth. The 3D view can be fully rotated and zoomed in or out using mouse buttons and wheel. Rotation can be stopped/restarted with spacebar. </p>
+      <p>Two pie charts on the right of the 3D view show the distribution of Users and Purposes for the satellites. Clicking on the respective pie chart slice will filter the orbits in the 3D view to selected satellite properties. One of each properties can be selected, and the view can be set back with the Reset button in the lower left corner. </p>
+      <p>Note: The sample is not representative of the roughly 2200 active satellites currently orbiting Earth, but their properties and orbital elements are real. For more information about the sampling, see the readme.</p>
+      <div class="btn">Dismiss</div>
+    </div>
+    <div class="graphs"></div>
+    <div class="tags">
+      <div class="reset">
+        Reset
+      </div>
+    </div>
+    <script src="scripts/three.js"></script>
+    <script src="scripts/stats.min.js"></script>
+    <script src="scripts/d3.js"></script>
+    <script src="scripts/OrbitControls.js"></script>
+    <script src="scripts/script.js" type="text/javascript" charset="utf-8" async defer></script>
+  </body>
+</html>
